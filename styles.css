@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'Pixel';
+    src: url('Assets/Pixel.ttf') format('truetype');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Assets/philipp-a-ulrich-artist-wizard-buildings-bell-tower-trees-sc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top center;
+}
+
+header {
+    background: none;
+    background-color: rgba(88, 87, 87, 0.932);
+    height: 13vh;
+    box-shadow: 2px 2px 40px rgba(255, 255, 255, 0.61);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 6rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 30px;
+}
+
+.nav-link {
+    color: orange;
+    text-decoration: none;
+    font-family: 'Pixel';
+    font-size: 14px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: coral;
+    color: rgb(255, 182, 131);
+}
+
+article.Baixar {
+   position: absolute;
+    top: 60%;
+    left: 54%;
+    color: white;
+}
+
+button {
+    padding: 20px 40px 20px 40px;
+    background-color: rgba(231, 154, 10, 0.473);
+    border: 2px solid orange;
+    color: orange;
+    font-family: 'Pixel';
+
+    box-shadow:  2px 2px 12px rgb(179, 118, 5);
+    text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: orange;
+}
+
